@@ -1,4 +1,4 @@
-app_identifier "com.dollaride.dollarsquares" # The bundle identifier of your app
+app_identifier "com.dollaride.dollarsquare" # The bundle identifier of your app
 apple_id "ia@salesclerk.co" # Your Apple email address
 
 team_id "ER6JL2P32Z"  # Developer Portal Team ID

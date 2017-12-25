@@ -2,7 +2,7 @@ git_url "https://github.com/adeb6600/dollarsquares-cert.git"
 
 type "development" # The default type, can be: appstore, adhoc or development
 
-  app_identifier "com.dollaride.dollarsquares"
+  app_identifier "com.dollaride.dollarsquare"
   username "ia@salesclerk.co" # Your Apple Developer Portal username
 
  
