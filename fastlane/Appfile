@@ -1,7 +1,7 @@
 app_identifier "com.dollaride.dollarsquares" # The bundle identifier of your app
-apple_id "adeb6600@gmail.com" # Your Apple email address
+apple_id "ia@salesclerk.co" # Your Apple email address
 
-team_id "2VG8DPFXZ4"  # Developer Portal Team ID
+team_id "ER6JL2P32Z"  # Developer Portal Team ID
 
 
 # you can even provide different app identifiers, Apple IDs and team names per lane:
