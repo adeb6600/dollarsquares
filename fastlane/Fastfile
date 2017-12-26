@@ -87,7 +87,7 @@ end
 end
 platform :android do
   desc "Deploy a new version to the Google Play Store"
-  lane :alpha do
+  lane :beta do
     gradle(
       task: "clean",
       project_dir: "android/"
@@ -99,8 +99,10 @@ platform :android do
     )
      hockey(
   api_token: "27e6d0765d5446689e9c38b68f9a3349",
-   apk: "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"  
-  )
+  apk: "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
+  notes: "Changelog"
+)
+   
   end
 end
 
