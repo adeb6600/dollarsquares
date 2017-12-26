@@ -97,10 +97,10 @@ platform :android do
       build_type: "Release",
       project_dir: "android/"
     )
-    supply(
-      track: "alpha",
-      apk: "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
-    )
+     hockey(
+  api_token: "27e6d0765d5446689e9c38b68f9a3349",
+   apk: "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"  
+  )
   end
 end
 
