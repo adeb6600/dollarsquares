@@ -9,7 +9,7 @@ import {
 
 import Square from './square'
 
-const colors = ['#000000', '#00ff00', '#ff00ff', '#dedede', '#333333', '#ff0000','#ffff00']
+const colors = ['#000000', '#0000ff', '#00ffff', '#00ff00', '#ff00ff', '#ff0000','#ffff00']
  
 var {height, width} = Dimensions.get('window');
 var squareWidth = Math.floor(width/colors.length)
