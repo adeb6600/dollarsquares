@@ -1208,8 +1208,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dollaride.dollarsquare;
 				PRODUCT_NAME = dollarsquares;
-				PROVISIONING_PROFILE = "62c3b65c-33ee-40db-8859-a8fa0de3c3dc";
-				PROVISIONING_PROFILE_SPECIFIER = DollarsquaresAdhoc;
+				PROVISIONING_PROFILE = "d937cfd0-cb03-4e54-a328-5113fe3cc12e";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.dollaride.dollarsquare";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
