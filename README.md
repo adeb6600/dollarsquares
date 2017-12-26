@@ -27,11 +27,10 @@ Bonus:
     edit fastfile, Appfile and Matchfile in the fastlane directory.
     supply your app hockeyapp app token 
     run the following instruction on the terminal.
-     
-      ```
+    
       cd dollarsquares
       fastlane ios beta
-      ```
+     
       
   Follow the instruction and the app will be pushed to hockeyapp
   
@@ -41,10 +40,10 @@ Bonus:
     supply your app hockeyapp app token 
     run the following instruction on the terminal.
      
-      ```
+      
       cd dollarsquares
       fastlane android beta
-      ```
+     
       
   Follow the instruction and the app will be pushed to hockeyapp
     
