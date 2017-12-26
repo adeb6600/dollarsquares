@@ -1,6 +1,6 @@
-# dollarsquares
+#Dollarsquares
 
-The Dollar Squares app implements:
+The DollarSquares app implements:
 
 (1) Mobile App Challenge
 
@@ -15,3 +15,38 @@ Bonus:
 - iOS and Android apps both working
 - deployed and build shareable through service like TestFlight or HockeyApp
 
+#Instructions
+  Clone the dollarsquares repository from gitub
+  ```
+  cd dollarsquares
+  npm install
+  ```
+  
+  To deploy IOS : 
+    install fastlane 
+    edit fastfile, Appfile and Matchfile in the fastlane directory.
+    supply your app hockeyapp app token 
+    run the following instruction on the terminal.
+     
+      ```
+      cd dollarsquares
+      fastlane ios beta
+      ```
+      
+  Follow the instruction and the app will be pushed to hockeyapp
+  
+  To deploy Android : 
+    install fastlane 
+    edit fastfile, Appfile and Matchfile in the fastlane directory.
+    supply your app hockeyapp app token 
+    run the following instruction on the terminal.
+     
+      ```
+      cd dollarsquares
+      fastlane android beta
+      ```
+      
+  Follow the instruction and the app will be pushed to hockeyapp
+    
+    
+    
